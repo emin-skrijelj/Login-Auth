@@ -1,11 +1,11 @@
 #include <iostream>
-#include <conio.h>
+//#include <conio.h>
 #include <fstream>
 #include <vector>
 #include <unordered_map>
 using namespace std;
 
-string passwdInput()
+/*string passwdInput()
 {
     string ipt = "";
     char ipt_ch;
@@ -18,7 +18,7 @@ string passwdInput()
         }
         ipt.push_back(ipt_ch);
     }
-};
+}*/
 
 void logingIn(string user_file,string password_file){
     fstream username;
