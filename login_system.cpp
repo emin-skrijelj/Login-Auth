@@ -47,7 +47,7 @@ void logingIn(string user_file,string password_file){
     while(!username.eof()){
         while(getline(username,line)){
             if(line == user){
-                while(!username.eof())
+                while(!password.eof())
                     while(getline(password,linep)){
                         if(linep == pass){
                             cout << "\nCongrats, login successfull." << endl;
